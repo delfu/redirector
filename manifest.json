@@ -1,0 +1,14 @@
+{
+	"manifest_version": 3,
+	"name": "Redirector", 
+	"version": "1.0",
+	"description": "Redirects one URL to another",
+	"icons": {
+		"128": "icon.png"
+	},
+	"permissions": ["webNavigation"],
+	"host_permissions": ["https://app.graphite.dev/*"],
+	"background": {
+		"service_worker": "background.js"
+	}
+}
